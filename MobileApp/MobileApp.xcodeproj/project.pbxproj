@@ -15,9 +15,9 @@
 		A40761831AE35925005BCEE2 /* scoobydoo.gif in Resources */ = {isa = PBXBuildFile; fileRef = A40761821AE35925005BCEE2 /* scoobydoo.gif */; };
 		A40761851AE359E5005BCEE2 /* SoundController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A40761841AE359E5005BCEE2 /* SoundController.swift */; };
 		A40761871AE48C83005BCEE2 /* scoobydoo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A40761861AE48C83005BCEE2 /* scoobydoo.mp3 */; };
+		A4AF14FF1AE6F40800D76624 /* giphy.gif in Resources */ = {isa = PBXBuildFile; fileRef = A4AF14FE1AE6F40800D76624 /* giphy.gif */; };
 		A4E2DEB61AE4932E00133BC9 /* VideoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E2DEB51AE4932E00133BC9 /* VideoController.swift */; };
 		A4E2DEB91AE5532B00133BC9 /* scoobydoovid.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = A4E2DEB81AE4B03400133BC9 /* scoobydoovid.mp4 */; };
-		A4E2DEBF1AE5DE1F00133BC9 /* giphy.gif in Resources */ = {isa = PBXBuildFile; fileRef = A4E2DEBE1AE5DE1F00133BC9 /* giphy.gif */; };
 		A4E2DEC11AE5DF2B00133BC9 /* ClockController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E2DEC01AE5DF2B00133BC9 /* ClockController.swift */; };
 		A4E2DEC51AE5E4D200133BC9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4E2DEC41AE5E4D200133BC9 /* Main.storyboard */; };
 		A4E2DEC71AE5E8C400133BC9 /* LabelClock.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E2DEC61AE5E8C400133BC9 /* LabelClock.swift */; };
@@ -46,9 +46,9 @@
 		A40761821AE35925005BCEE2 /* scoobydoo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = scoobydoo.gif; path = ../../../Downloads/scoobydoo.gif; sourceTree = "<group>"; };
 		A40761841AE359E5005BCEE2 /* SoundController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoundController.swift; sourceTree = "<group>"; };
 		A40761861AE48C83005BCEE2 /* scoobydoo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = scoobydoo.mp3; path = ../../../Downloads/scoobydoo.mp3; sourceTree = "<group>"; };
+		A4AF14FE1AE6F40800D76624 /* giphy.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = giphy.gif; path = ../../../Desktop/giphy.gif; sourceTree = "<group>"; };
 		A4E2DEB51AE4932E00133BC9 /* VideoController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoController.swift; sourceTree = "<group>"; };
 		A4E2DEB81AE4B03400133BC9 /* scoobydoovid.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = scoobydoovid.mp4; sourceTree = SOURCE_ROOT; };
-		A4E2DEBE1AE5DE1F00133BC9 /* giphy.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = giphy.gif; path = ../../giphy.gif; sourceTree = "<group>"; };
 		A4E2DEC01AE5DF2B00133BC9 /* ClockController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClockController.swift; sourceTree = "<group>"; };
 		A4E2DEC41AE5E4D200133BC9 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ../../../.Trash/Main.storyboard; sourceTree = "<group>"; };
 		A4E2DEC61AE5E8C400133BC9 /* LabelClock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LabelClock.swift; sourceTree = "<group>"; };
@@ -110,8 +110,8 @@
 		A407614F1ADF401B005BCEE2 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				A4E2DEBE1AE5DE1F00133BC9 /* giphy.gif */,
 				A40761861AE48C83005BCEE2 /* scoobydoo.mp3 */,
+				A4AF14FE1AE6F40800D76624 /* giphy.gif */,
 				A4E2DEB81AE4B03400133BC9 /* scoobydoovid.mp4 */,
 				A40761821AE35925005BCEE2 /* scoobydoo.gif */,
 				A40761501ADF401B005BCEE2 /* Info.plist */,
@@ -216,8 +216,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4AF14FF1AE6F40800D76624 /* giphy.gif in Resources */,
 				A4E2DEC51AE5E4D200133BC9 /* Main.storyboard in Resources */,
-				A4E2DEBF1AE5DE1F00133BC9 /* giphy.gif in Resources */,
 				A4E2DEB91AE5532B00133BC9 /* scoobydoovid.mp4 in Resources */,
 				A40761831AE35925005BCEE2 /* scoobydoo.gif in Resources */,
 				A407615C1ADF401B005BCEE2 /* LaunchScreen.xib in Resources */,
