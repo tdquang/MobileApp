@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>BBA6E126-C7D8-4A71-BEA9-85583184E8EF</string>
+	<key>IDESourceControlProjectName</key>
+	<string>project</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>329108D2331D103C16B69BCB7AE1BD62512F9FF2</key>
+		<string>bitbucket.org:td_quang/assignment4.git</string>
+		<key>481F27FEEA1256572BE58C4B5ED24674512B958A</key>
+		<string>https://github.com/tdquang/MobileApp.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>MobileApp.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>329108D2331D103C16B69BCB7AE1BD62512F9FF2</key>
+		<string>../..</string>
+		<key>481F27FEEA1256572BE58C4B5ED24674512B958A</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>bitbucket.org:td_quang/assignment4.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>329108D2331D103C16B69BCB7AE1BD62512F9FF2</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>481F27FEEA1256572BE58C4B5ED24674512B958A</string>
+			<key>IDESourceControlWCCName</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>329108D2331D103C16B69BCB7AE1BD62512F9FF2</string>
+			<key>IDESourceControlWCCName</key>
+			<string>MobileApp</string>
+		</dict>
+	</array>
+</dict>
+</plist>

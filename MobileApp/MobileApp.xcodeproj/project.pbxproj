@@ -117,8 +117,8 @@
 			children = (
 				A40761511ADF401B005BCEE2 /* AppDelegate.swift */,
 				A4E2DEB51AE4932E00133BC9 /* VideoController.swift */,
-				A4E2DEC41AE5E4D200133BC9 /* Main.storyboard */,
 				A4E2DEC01AE5DF2B00133BC9 /* ClockController.swift */,
+				A4E2DEC41AE5E4D200133BC9 /* Main.storyboard */,
 				A4572E391AE7028400D2AB01 /* AboutController.swift */,
 				A40761841AE359E5005BCEE2 /* SoundController.swift */,
 				A4572E371AE6FD4200D2AB01 /* MainTableViewController.swift */,
