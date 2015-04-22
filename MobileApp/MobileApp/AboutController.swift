@@ -46,6 +46,8 @@ class AboutController: UIViewController {
         csLabel.textAlignment = NSTextAlignment.Center
         self.view.addSubview(csLabel)
         
+        
+        
         // Do any additional setup after loading the view.
     }
 

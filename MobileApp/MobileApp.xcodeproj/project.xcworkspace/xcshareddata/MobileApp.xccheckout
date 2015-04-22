@@ -7,7 +7,7 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>BBA6E126-C7D8-4A71-BEA9-85583184E8EF</string>
 	<key>IDESourceControlProjectName</key>
-	<string>project</string>
+	<string>MobileApp</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>329108D2331D103C16B69BCB7AE1BD62512F9FF2</key>
@@ -16,7 +16,7 @@
 		<string>https://github.com/tdquang/MobileApp.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>MobileApp.xcodeproj/project.xcworkspace</string>
+	<string>MobileApp.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>329108D2331D103C16B69BCB7AE1BD62512F9FF2</key>

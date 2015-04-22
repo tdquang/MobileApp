@@ -13,7 +13,6 @@
 		A40761681ADF401B005BCEE2 /* MobileAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A40761671ADF401B005BCEE2 /* MobileAppTests.swift */; };
 		A40761851AE359E5005BCEE2 /* SoundController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A40761841AE359E5005BCEE2 /* SoundController.swift */; };
 		A4572E341AE6F87C00D2AB01 /* giphy.gif in Resources */ = {isa = PBXBuildFile; fileRef = A4572E311AE6F87C00D2AB01 /* giphy.gif */; };
-		A4572E351AE6F87C00D2AB01 /* scoobydoo.gif in Resources */ = {isa = PBXBuildFile; fileRef = A4572E321AE6F87C00D2AB01 /* scoobydoo.gif */; };
 		A4572E361AE6F87C00D2AB01 /* scoobydoo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A4572E331AE6F87C00D2AB01 /* scoobydoo.mp3 */; };
 		A4572E381AE6FD4200D2AB01 /* MainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4572E371AE6FD4200D2AB01 /* MainTableViewController.swift */; };
 		A4572E3A1AE7028400D2AB01 /* AboutController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4572E391AE7028400D2AB01 /* AboutController.swift */; };
@@ -31,7 +30,7 @@
 		A4E2DEB61AE4932E00133BC9 /* VideoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E2DEB51AE4932E00133BC9 /* VideoController.swift */; };
 		A4E2DEB91AE5532B00133BC9 /* scoobydoovid.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = A4E2DEB81AE4B03400133BC9 /* scoobydoovid.mp4 */; };
 		A4E2DEC11AE5DF2B00133BC9 /* ClockController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E2DEC01AE5DF2B00133BC9 /* ClockController.swift */; };
-		A4E2DEC51AE5E4D200133BC9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4E2DEC41AE5E4D200133BC9 /* Main.storyboard */; };
+		A4E708E01AE8125A000A2A65 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4E708DF1AE8125A000A2A65 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,7 +54,6 @@
 		A40761671ADF401B005BCEE2 /* MobileAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileAppTests.swift; sourceTree = "<group>"; };
 		A40761841AE359E5005BCEE2 /* SoundController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoundController.swift; sourceTree = "<group>"; };
 		A4572E311AE6F87C00D2AB01 /* giphy.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = giphy.gif; sourceTree = SOURCE_ROOT; };
-		A4572E321AE6F87C00D2AB01 /* scoobydoo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = scoobydoo.gif; sourceTree = SOURCE_ROOT; };
 		A4572E331AE6F87C00D2AB01 /* scoobydoo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = scoobydoo.mp3; sourceTree = SOURCE_ROOT; };
 		A4572E371AE6FD4200D2AB01 /* MainTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTableViewController.swift; sourceTree = "<group>"; };
 		A4572E391AE7028400D2AB01 /* AboutController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutController.swift; sourceTree = "<group>"; };
@@ -73,7 +71,7 @@
 		A4E2DEB51AE4932E00133BC9 /* VideoController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoController.swift; sourceTree = "<group>"; };
 		A4E2DEB81AE4B03400133BC9 /* scoobydoovid.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = scoobydoovid.mp4; sourceTree = SOURCE_ROOT; };
 		A4E2DEC01AE5DF2B00133BC9 /* ClockController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClockController.swift; sourceTree = "<group>"; };
-		A4E2DEC41AE5E4D200133BC9 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ../../../.Trash/Main.storyboard; sourceTree = "<group>"; };
+		A4E708DF1AE8125A000A2A65 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,9 +116,9 @@
 				A40761511ADF401B005BCEE2 /* AppDelegate.swift */,
 				A4E2DEB51AE4932E00133BC9 /* VideoController.swift */,
 				A4E2DEC01AE5DF2B00133BC9 /* ClockController.swift */,
-				A4E2DEC41AE5E4D200133BC9 /* Main.storyboard */,
 				A4572E391AE7028400D2AB01 /* AboutController.swift */,
 				A40761841AE359E5005BCEE2 /* SoundController.swift */,
+				A4E708DF1AE8125A000A2A65 /* Main.storyboard */,
 				A4572E371AE6FD4200D2AB01 /* MainTableViewController.swift */,
 				A40761581ADF401B005BCEE2 /* Images.xcassets */,
 				A407615A1ADF401B005BCEE2 /* LaunchScreen.xib */,
@@ -134,7 +132,6 @@
 			children = (
 				A4E2DEB81AE4B03400133BC9 /* scoobydoovid.mp4 */,
 				A4572E311AE6F87C00D2AB01 /* giphy.gif */,
-				A4572E321AE6F87C00D2AB01 /* scoobydoo.gif */,
 				A4572E431AE70BAE00D2AB01 /* scooby-doo.png */,
 				A4572E451AE70C0000D2AB01 /* daphne-scooby-doo_1.png */,
 				A4572E461AE70C0000D2AB01 /* fred-scooby-doo_1.png */,
@@ -256,16 +253,15 @@
 				A4572E4B1AE70C0000D2AB01 /* shaggy-scooby-doo.png in Resources */,
 				A4572E511AE712CC00D2AB01 /* shaggy.mp3 in Resources */,
 				A4572E441AE70BAE00D2AB01 /* scooby-doo.png in Resources */,
-				A4E2DEC51AE5E4D200133BC9 /* Main.storyboard in Resources */,
 				A4572E401AE7085100D2AB01 /* thankyou.gif in Resources */,
 				A4572E4A1AE70C0000D2AB01 /* fred-scooby-doo_1.png in Resources */,
 				A4572E521AE712CC00D2AB01 /* velma.mp3 in Resources */,
 				A4572E491AE70C0000D2AB01 /* daphne-scooby-doo_1.png in Resources */,
-				A4572E351AE6F87C00D2AB01 /* scoobydoo.gif in Resources */,
 				A4E2DEB91AE5532B00133BC9 /* scoobydoovid.mp4 in Resources */,
 				A407615C1ADF401B005BCEE2 /* LaunchScreen.xib in Resources */,
 				A4572E541AE712CC00D2AB01 /* freddy.mp3 in Resources */,
 				A40761591ADF401B005BCEE2 /* Images.xcassets in Resources */,
+				A4E708E01AE8125A000A2A65 /* Main.storyboard in Resources */,
 				A4572E4C1AE70C0000D2AB01 /* velma-scooby-doo_0.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

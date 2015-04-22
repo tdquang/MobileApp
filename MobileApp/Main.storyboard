@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7702" systemVersion="14D131" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Lhu-et-Rb6">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
+    </dependencies>
+    <scenes>
+        <!--Sound Controller-->
+        <scene sceneID="d7b-8G-fbD">
+            <objects>
+                <viewController id="Toi-3b-Qbv" customClass="SoundController" customModule="MobileApp" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="A41-Wp-oQ4"/>
+                        <viewControllerLayoutGuide type="bottom" id="8EG-Xp-5Pp"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="i6u-SY-ygk">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="brickwall.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="x3m-Uz-5nr">
+                                <rect key="frame" x="0.0" y="64" width="609" height="577"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="z3i-6Z-yX3">
+                                <rect key="frame" x="0.0" y="151" width="222" height="135"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="222" id="GLr-R8-U18"/>
+                                    <constraint firstAttribute="height" constant="135" id="jL6-Q2-N5d"/>
+                                </constraints>
+                                <state key="normal" title="Button" image="fred-scooby-doo_1.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="handleFreddyButton" destination="Toi-3b-Qbv" eventType="touchUpInside" id="rQk-zy-a5T"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hOX-t7-y7M">
+                                <rect key="frame" x="179" y="151" width="222" height="135"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="135" id="OWw-Wx-thz"/>
+                                    <constraint firstAttribute="width" constant="222" id="bIK-bu-tmv"/>
+                                </constraints>
+                                <state key="normal" title="Button" image="daphne-scooby-doo_1.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="handleDaphneyButton" destination="Toi-3b-Qbv" eventType="touchUpInside" id="5Dy-SK-L9s"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6qz-tB-Img">
+                                <rect key="frame" x="0.0" y="407" width="222" height="135"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="222" id="EI6-AS-aq5"/>
+                                    <constraint firstAttribute="height" constant="135" id="shK-sf-wk0"/>
+                                </constraints>
+                                <state key="normal" title="Button" image="shaggy-scooby-doo.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="handleShaggyButton" destination="Toi-3b-Qbv" eventType="touchUpInside" id="F5z-0M-Jl5"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pum-Ea-p2o">
+                                <rect key="frame" x="179" y="407" width="222" height="135"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="135" id="fgI-zs-RLb"/>
+                                    <constraint firstAttribute="width" constant="222" id="iBx-wD-5Lz"/>
+                                </constraints>
+                                <state key="normal" title="Button" image="velma-scooby-doo_0.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lI6-8T-vDh">
+                                <rect key="frame" x="176" y="320" width="222" height="135"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="222" id="03N-aa-5P4"/>
+                                    <constraint firstAttribute="height" constant="135" id="cPD-PG-fCm"/>
+                                </constraints>
+                                <state key="normal" title="Button" image="scooby-doo.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="handleScoobyButton" destination="Toi-3b-Qbv" eventType="touchUpInside" id="zws-7o-smu"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SiR-89-Zs6">
+                                <rect key="frame" x="179" y="407" width="222" height="135"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="135" id="a97-Cw-wcE"/>
+                                    <constraint firstAttribute="width" constant="222" id="bf3-cg-e3E"/>
+                                </constraints>
+                                <state key="normal" title="Button" image="velma-scooby-doo_0.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="handleVelmaButton" destination="Toi-3b-Qbv" eventType="touchUpInside" id="9ro-Gi-0HG"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="z3i-6Z-yX3" firstAttribute="leading" secondItem="6qz-tB-Img" secondAttribute="leading" id="3p1-ES-LNK"/>
+                            <constraint firstItem="hOX-t7-y7M" firstAttribute="leading" secondItem="Pum-Ea-p2o" secondAttribute="leading" id="Ao0-ZP-8ZZ"/>
+                            <constraint firstItem="Pum-Ea-p2o" firstAttribute="top" secondItem="6qz-tB-Img" secondAttribute="top" id="MEl-vT-eVM"/>
+                            <constraint firstAttribute="centerY" secondItem="lI6-8T-vDh" secondAttribute="centerY" id="Mi2-zK-JjN"/>
+                            <constraint firstAttribute="centerX" secondItem="lI6-8T-vDh" secondAttribute="centerX" constant="-20" id="Ngp-e3-hGa"/>
+                            <constraint firstItem="hOX-t7-y7M" firstAttribute="trailing" secondItem="Pum-Ea-p2o" secondAttribute="trailing" id="Ybv-Og-pGW"/>
+                            <constraint firstItem="hOX-t7-y7M" firstAttribute="top" secondItem="z3i-6Z-yX3" secondAttribute="top" id="eIv-AQ-Wnb"/>
+                            <constraint firstItem="hOX-t7-y7M" firstAttribute="bottom" secondItem="z3i-6Z-yX3" secondAttribute="bottom" id="h62-gA-FfV"/>
+                            <constraint firstItem="z3i-6Z-yX3" firstAttribute="trailing" secondItem="6qz-tB-Img" secondAttribute="trailing" id="l7W-dk-3dR"/>
+                            <constraint firstItem="Pum-Ea-p2o" firstAttribute="bottom" secondItem="6qz-tB-Img" secondAttribute="bottom" id="tS4-Xi-zuO"/>
+                        </constraints>
+                    </view>
+                    <toolbarItems/>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Tv5-cY-Pfk" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2600" y="-171"/>
+        </scene>
+        <!--About Controller-->
+        <scene sceneID="Quh-er-S3g">
+            <objects>
+                <viewController id="FQ9-e4-tLd" customClass="AboutController" customModule="MobileApp" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="X7o-3y-MGB"/>
+                        <viewControllerLayoutGuide type="bottom" id="Ypi-Gh-gU1"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="d6h-gv-BJI">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jKf-MU-rld" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1794" y="1423"/>
+        </scene>
+        <!--Clock Controller-->
+        <scene sceneID="Vl2-gs-cFL">
+            <objects>
+                <viewController id="MaK-Za-pWs" customClass="ClockController" customModule="MobileApp" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FOB-uw-x47" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2600" y="1423"/>
+        </scene>
+        <!--Video Controller-->
+        <scene sceneID="w5L-n1-L4C">
+            <objects>
+                <viewController id="jBJ-HV-xcv" customClass="VideoController" customModule="MobileApp" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="zfA-lB-mhu"/>
+                        <viewControllerLayoutGuide type="bottom" id="X6U-nu-9SS"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="rfF-KR-Xzh">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bRz-X0-MPG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2600" y="616"/>
+        </scene>
+        <!--Main Table View Controller-->
+        <scene sceneID="joa-qZ-DSt">
+            <objects>
+                <tableViewController id="Djg-HE-Oem" customClass="MainTableViewController" customModule="MobileApp" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="tuV-vd-hlk">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <sections>
+                            <tableViewSection id="ElO-F8-R3Y">
+                                <cells>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="8HP-4v-hoP" style="IBUITableViewCellStyleDefault" id="FU6-Tu-1Yu">
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="FU6-Tu-1Yu" id="Q4l-Xc-xXP">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Sound" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="8HP-4v-hoP">
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="Toi-3b-Qbv" kind="show" id="hdV-c4-27C"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="GdM-h2-h2Z" style="IBUITableViewCellStyleDefault" id="OHV-Vr-jlR">
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="OHV-Vr-jlR" id="wBl-Lp-0f8">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Video" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="GdM-h2-h2Z">
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="jBJ-HV-xcv" kind="show" id="c82-De-zbM"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="hGN-1T-Iza" style="IBUITableViewCellStyleDefault" id="0u1-Am-qqj">
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="0u1-Am-qqj" id="RlT-Lh-j4a">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Clock" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="hGN-1T-Iza">
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="MaK-Za-pWs" kind="show" id="YSG-S3-3Zp"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
+                        <connections>
+                            <outlet property="dataSource" destination="Djg-HE-Oem" id="G1R-DK-FP9"/>
+                            <outlet property="delegate" destination="Djg-HE-Oem" id="pfV-6d-ESg"/>
+                        </connections>
+                    </tableView>
+                    <toolbarItems>
+                        <barButtonItem style="plain" systemItem="flexibleSpace" id="Bhi-1a-4To"/>
+                        <barButtonItem title="About" width="80" id="dc9-z6-oB7">
+                            <connections>
+                                <segue destination="FQ9-e4-tLd" kind="show" id="qge-FH-fwW"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem style="plain" systemItem="flexibleSpace" id="wVf-w7-ZbQ"/>
+                    </toolbarItems>
+                    <navigationItem key="navigationItem" id="gHv-GK-OyQ"/>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UfF-14-L5v" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1794" y="616"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="53s-Km-g6h">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Lhu-et-Rb6" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="QBV-pK-8wq">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="Djg-HE-Oem" kind="relationship" relationship="rootViewController" id="UYI-DM-Ays"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4cP-KI-KWe" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1128" y="616"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="brickwall.jpg" width="496" height="495"/>
+        <image name="daphne-scooby-doo_1.png" width="389" height="270"/>
+        <image name="fred-scooby-doo_1.png" width="389" height="270"/>
+        <image name="scooby-doo.png" width="389" height="270"/>
+        <image name="shaggy-scooby-doo.png" width="389" height="270"/>
+        <image name="velma-scooby-doo_0.png" width="389" height="270"/>
+    </resources>
+</document>
