@@ -1,10 +1,9 @@
 //
 //  VideoController.swift
-//  MobileApp
+//  MobileApp Development
 //
-//  Created by Quang Tran Dang on 19.04.15.
-//  Copyright (c) 2015 Quang Tran Dang. All rights reserved.
-//
+//  Quang Tran and Anmol Raina
+//  This class plays a video
 
 import UIKit
 import MediaPlayer
@@ -34,14 +33,6 @@ class VideoController: UIViewController {
         }
     }
 
-    /*
-    // MARK: - Navigation
 
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }

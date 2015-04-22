@@ -1,37 +1,109 @@
 //
 //  SoundController.swift
-//  MobileApp
+//  MobileApp Development
 //
-//  Created by Quang Tran Dang on 18.04.15.
-//  Copyright (c) 2015 Quang Tran Dang. All rights reserved.
+//  Quang Tran and Anmol Raina
+//  This class handles the sound button by playing mp3 files specific to the character
 //
 
 import UIKit
 import AVFoundation
 
 class SoundController: UIViewController {
+    
+    
     var scoobySound = NSURL(fileURLWithPath: NSBundle.mainBundle().pathForResource("scoobydoo", ofType: "mp3")!)
-    var audioPlayer = AVAudioPlayer()
+    var freddySound = NSURL(fileURLWithPath: NSBundle.mainBundle().pathForResource("freddy", ofType: "mp3")!)
+    var velmaSound = NSURL(fileURLWithPath: NSBundle.mainBundle().pathForResource("velma", ofType: "mp3")!)
+    var daphneySound = NSURL(fileURLWithPath: NSBundle.mainBundle().pathForResource("daphney", ofType: "mp3")!)
+    var shaggySound = NSURL(fileURLWithPath: NSBundle.mainBundle().pathForResource("shaggy", ofType: "mp3")!)
+
+    var scoobyPlayer = AVAudioPlayer()
+    var freddyPlayer = AVAudioPlayer()
+    var velmaPlayer = AVAudioPlayer()
+    var daphneyPlayer = AVAudioPlayer()
+    var shaggyPlayer = AVAudioPlayer()
+    
+    // Keeping track of the number of touches. Touching a character button second time would pause the mp3 file
     var numOfTouchesScooby = 0
+    var numOfTouchesFreddy = 0
+    var numOfTouchesVelma = 0
+    var numOfTouchesDaphney = 0
+    var numOfTouchesShaggy = 0
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        audioPlayer = AVAudioPlayer(contentsOfURL: scoobySound, error: nil)
-        audioPlayer.prepareToPlay()
-        // Do any additional setup after loading the view.
+        
+        scoobyPlayer = AVAudioPlayer(contentsOfURL: scoobySound, error: nil)
+        scoobyPlayer.prepareToPlay()
+        
+        freddyPlayer = AVAudioPlayer(contentsOfURL: freddySound, error: nil)
+        freddyPlayer.prepareToPlay()
+    
+        
+        velmaPlayer = AVAudioPlayer(contentsOfURL: velmaSound, error: nil)
+        velmaPlayer.prepareToPlay()
+        
+        daphneyPlayer = AVAudioPlayer(contentsOfURL: daphneySound, error: nil)
+        daphneyPlayer.prepareToPlay()
+        
+        shaggyPlayer = AVAudioPlayer(contentsOfURL: shaggySound, error: nil)
+        shaggyPlayer.prepareToPlay()
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
+    
+    // The following functions play mp3 files
     
     @IBAction func handleScoobyButton() {
         numOfTouchesScooby++
         if (numOfTouchesScooby % 2 != 0){
-            audioPlayer.play()
+            scoobyPlayer.play()
         }
         else{
-            audioPlayer.pause()
+            scoobyPlayer.pause()
+        }
+    }
+    
+    @IBAction func handleFreddyButton() {
+        numOfTouchesFreddy++
+        if (numOfTouchesFreddy % 2 != 0){
+            freddyPlayer.play()
+        }
+        else{
+            freddyPlayer.pause()
+        }
+    }
+    
+    @IBAction func handleVelmaButton() {
+        numOfTouchesVelma++
+        if (numOfTouchesVelma % 2 != 0){
+            velmaPlayer.play()
+        }
+        else{
+            velmaPlayer.pause()
+        }
+    }
+    
+    @IBAction func handleDaphneyButton() {
+        numOfTouchesDaphney++
+        if (numOfTouchesDaphney % 2 != 0){
+            daphneyPlayer.play()
+        }
+        else{
+            daphneyPlayer.pause()
+        }
+    }
+    
+    @IBAction func handleShaggyButton() {
+        numOfTouchesShaggy++
+        if (numOfTouchesShaggy % 2 != 0){
+            shaggyPlayer.play()
+        }
+        else{
+            shaggyPlayer.pause()
         }
     }
     
